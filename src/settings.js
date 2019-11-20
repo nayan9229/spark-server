@@ -24,8 +24,8 @@ import path from 'path';
 /* eslint-disable sorting/sort-object-props */
 export default {
   BUILD_DIRECTORY: path.join(process.cwd(), 'data/build'),
-  DEFAULT_ADMIN_PASSWORD: 'oizom',
-  DEFAULT_ADMIN_USERNAME: 'Oizom_4932',
+  DEFAULT_ADMIN_PASSWORD: '__admin__',
+  DEFAULT_ADMIN_USERNAME: '*********',
   DEVICE_DIRECTORY: path.join(process.cwd(), 'data/deviceKeys'),
   ENABLE_SYSTEM_FIRWMARE_AUTOUPDATES: true,
   FIRMWARE_DIRECTORY: path.join(process.cwd(), 'data/knownApps'),
