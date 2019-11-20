@@ -1525,7 +1525,7 @@ bunyan-middleware@^0.8.0:
     "@types/express" "^4.0.35"
     uuid "^3.0.0"
 
-bunyan@^1.8.10, bunyan@^1.8.12:
+bunyan@^1.8.12:
   version "1.8.12"
   resolved "https://registry.yarnpkg.com/bunyan/-/bunyan-1.8.12.tgz#f150f0f6748abdd72aeae84f04403be2ef113797"
   integrity sha1-8VDw9nSKvdcq6uhPBEA74u8RN5c=

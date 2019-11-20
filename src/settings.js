@@ -24,8 +24,8 @@ import path from 'path';
 /* eslint-disable sorting/sort-object-props */
 export default {
   BUILD_DIRECTORY: path.join(process.cwd(), 'data/build'),
-  DEFAULT_ADMIN_PASSWORD: 'adminPassword',
-  DEFAULT_ADMIN_USERNAME: '__admin__',
+  DEFAULT_ADMIN_PASSWORD: 'oizom',
+  DEFAULT_ADMIN_USERNAME: 'Oizom_4932',
   DEVICE_DIRECTORY: path.join(process.cwd(), 'data/deviceKeys'),
   ENABLE_SYSTEM_FIRWMARE_AUTOUPDATES: true,
   FIRMWARE_DIRECTORY: path.join(process.cwd(), 'data/knownApps'),
@@ -35,7 +35,7 @@ export default {
   USERS_DIRECTORY: path.join(process.cwd(), 'data/users'),
   WEBHOOKS_DIRECTORY: path.join(process.cwd(), 'data/webhooks'),
   ACCESS_TOKEN_LIFETIME: 7776000, // 90 days,
-  API_TIMEOUT: 30000, // Timeout for API requests.
+  API_TIMEOUT: 150000, // Timeout for API requests.
   CRYPTO_ALGORITHM: 'aes-128-cbc',
   LOG_LEVEL: (process.env.LOG_LEVEL: any) || 'info',
   LOGIN_ROUTE: '/oauth/token',
